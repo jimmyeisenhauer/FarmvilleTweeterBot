@@ -59,7 +59,7 @@ public class AndroidTest {
 	    fbEmail.sendKeys("mos6y@me.com");
 	    
 	    WebElement fbPw = driver.findElement(By.name("pass"));
-	    fbPw.sendKeys("mo$6ycantest");
+	    fbPw.sendKeys("****");
 	    
 	    WebElement fbLoginBtn = driver.findElement(By.name("login"));
 	    fbLoginBtn.click();
@@ -157,7 +157,7 @@ public class AndroidTest {
 	    WebElement usernamebox = driver.findElement(By.id("username"));
 	    usernamebox.sendKeys("mos6ycantest");
 	    WebElement passwordbox = driver.findElement(By.id("password"));
-	    passwordbox.sendKeys("mo$6ycantest");
+	    passwordbox.sendKeys("******");
 	    passwordbox.submit();
 	    
 	    // move to compose url...easier then finding menu and clicking
